@@ -9,5 +9,7 @@ fastjson漏洞burp插件，检测fastjson&lt;=1.2.47基于dnslog和fastjson 1.2.
  2. 在原来的rmi协议上支持ldap协议。
  3. 支持fastjson 1.2.24 Tomcatecho ,检测后，发送到Repeater 中，便可以利用。
  4. 存在攻击行为，非法使用后果自负！！！！
-
+ 
+ 
+##### 如下图：
 ![](%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20210118170804.png)
