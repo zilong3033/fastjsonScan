@@ -3,6 +3,8 @@ fastjson漏洞burp插件，检测fastjson&lt;=1.2.47基于dnslog和fastjson 1.2.
 
 附带fastjson1.2.47.tar.gz的web，解压到tomcat 的webapps，和fastjson 1.2.24的jar包，替换1.2.47的jar就能测试1.2.24。
 
+
+
 ### 自己编写的burp插件
  1.fastjson =< 1.2.47 反序列化漏洞检测
    无法检测没有外网的主机，默认使用rmi协议。
@@ -16,6 +18,8 @@ fastjson漏洞burp插件，检测fastjson&lt;=1.2.47基于dnslog和fastjson 1.2.
  
 #### 用法：
   加到burp插件就行了，流量经过burp就检测。结果在ISSUES中看到，如果是fastjson 1.2.24的话，自动发送结果到Repeater如下图。
+#### FastjsonExploit.jar
+  打包大佬的代码，大佬地址：https://github.com/c0ny1/FastjsonExploit
   
 #### 注意：
    只检测post，且类型是application/json
