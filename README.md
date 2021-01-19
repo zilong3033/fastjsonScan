@@ -16,6 +16,9 @@ fastjson漏洞burp插件，检测fastjson&lt;=1.2.47基于dnslog和fastjson 1.2.
  
 #### 用法：
   加到burp插件就行了，流量经过burp就检测。结果在ISSUES中看到，如果是fastjson 1.2.24的话，自动发送结果到Repeater如下图。
+  
+#### 注意：
+   只检测post，且类型是application/json
  
 ##### 如下图：
 ![](%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20210118170804.png)
