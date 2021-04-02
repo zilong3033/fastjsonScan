@@ -2,7 +2,7 @@
  目前tomcatEcho有两种方案。
 
 ## fastjsonScan
-fastjson漏洞burp插件，检测fastjson&lt;=1.2.47基于dnslog和fastjson 1.2.24 的不出网回显TomcatEcho，使用ysoserial的tomcatEcho回显方案
+fastjson漏洞burp插件，检测fastjson&lt;=1.2.47基于dnslog和fastjson 1.2.24 的不出网2种TomcatEcho回显方案，使用ysoserial的tomcatEcho回显方案
 
 附带fastjson1.2.47.tar.gz的web，解压到tomcat 的webapps，和fastjson 1.2.24的jar包，替换1.2.47的jar就能测试1.2.24。
 
