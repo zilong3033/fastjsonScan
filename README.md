@@ -1,5 +1,5 @@
 #### 更新v3.7
- 目前tomcatEcho有两种方案。
+ 目前回显有两种方案，利用条件都有局限性，dbcp回显是spring回显，TemplatesImpl的tomcatEcho目前几乎遇不到。
 
 ## fastjsonScan
 fastjson漏洞burp插件，检测fastjson&lt;=1.2.47基于dnslog和fastjson 1.2.24 的不出网2种TomcatEcho回显方案，使用ysoserial的tomcatEcho回显方案
