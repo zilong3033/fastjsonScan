@@ -15,7 +15,8 @@ fastjson漏洞burp插件，检测fastjson&lt;=1.2.47基于dnslog和fastjson 1.2.
 #### FastjsonScan 更新
  1.在原来的被动扫描上支持主动扫描，由于主动扫描发送数据包较多，故会多次扫描。
  2. 在原来的rmi协议上支持ldap协议。
- 3. 支持fastjson 1.2.24 Tomcatecho ,检测后，发送到Repeater 中，便可以利用。
+ 3. 支持fastjson 1.2.47 SpringEcho ,检测后，发送到Repeater 中，便可以利用。
+ 4. 支持fastjson<= 1.2.47 的延时检测。
   ##### 4. 存在攻击行为，非法使用后果自负！！！！
  5. 为防止被动检测多次扫描，同一url被动检测一次，如果重新检测，需要重新加载插件或重启burp，主动扫描可以检测多次，目前主动扫描不会tomcatEcho。
  ##### 6. 加入1.2.24-1.2.68 dnslog检测方案。
