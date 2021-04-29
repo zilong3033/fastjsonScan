@@ -1,4 +1,4 @@
-#### 更新v3.8
+#### 更新了，注意升级！！更新到v3.8
  支持<=1.2.47的不出网检测方案！！！！其中有SpringEcho方案，有DelayTest方案。不出网利用链有3条:dbcp,ibatis和TemplatesImpl，其中TemplatesImpl几乎遇不到，但是也加着。TomcatEcho依然没有，我太菜了，没构造成功，不过暂时DelayTest够用了。
 
 ## fastjsonScan
