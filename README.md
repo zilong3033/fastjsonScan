@@ -1,5 +1,5 @@
 #### 更新v3.8
- 支持<=1.2.47的不出网检测方案！！！！其中有SpringEcho方案，有DelayTest方案。不出网利用链有3条:dbcp,ibatis和TemplatesImpl，其中TemplatesImpl几乎遇不到，但是也加着。
+ 支持<=1.2.47的不出网检测方案！！！！其中有SpringEcho方案，有DelayTest方案。不出网利用链有3条:dbcp,ibatis和TemplatesImpl，其中TemplatesImpl几乎遇不到，但是也加着。TomcatEcho依然没有，我太菜了，没构造成功。
 
 ## fastjsonScan
 fastjson漏洞burp插件，检测fastjson&lt;=1.2.47基于dnslog和fastjson 1.2.24 的不出网2种TomcatEcho回显方案，使用ysoserial的tomcatEcho回显方案
