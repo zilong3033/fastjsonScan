@@ -40,3 +40,7 @@ fastjson1.2.24自动发到Repeater 回显结果，添加Testcmd头执行命令�
 加入第二种回显方案：
 也是自动检测，存在的话会发送到repeater中，如图，修改echo:test和Testcmd:命令：
 ![](微信截图_20210402211015.png)
+
+第三种回显方案：
+自动检测后，发送到repeater种，修改header，加入Testcmd:命令
+
