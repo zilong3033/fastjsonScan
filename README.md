@@ -20,8 +20,6 @@ fastjson漏洞burp插件，检测fastjson&lt;=1.2.47基于dnslog和fastjson 1.2.
  
 #### 用法：
   加到burp插件就行了，流量经过burp就检测。结果在ISSUES中看到，如果fastjson<=1.2.24和1.2.33<=fatjson<=1.2.47的话，自动发送结果到Repeater如下图。
-#### FastjsonExploit.jar
-  打包大佬的代码，大佬地址：https://github.com/c0ny1/FastjsonExploit
   
 #### 注意：
    只检测post，且类型是application/json
