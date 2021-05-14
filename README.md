@@ -29,6 +29,9 @@ fastjson漏洞burp插件，检测fastjson&lt;=1.2.47基于dnslog和fastjson 1.2.
 
 ![](%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20210119112911.png)
 
+也可以在自定义界面看到
+![](微信截图_20210514155731.png)
+
 fastjson1.2.47回显存在的话，自动发到Repeater 回显结果，添加Testcmd头执行命令：
 
 ![](%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20210118170804.png)
